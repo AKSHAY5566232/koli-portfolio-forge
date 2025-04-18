@@ -7,9 +7,9 @@ const Hero = () => {
     <section id="about" className="pt-24 pb-16 md:pt-32 md:pb-24">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-8">
-          <div className="w-48 h-48 md:w-64 md:h-64 overflow-hidden rounded-full">
+          <div className="w-48 h-48 md:w-64 md:h-64 overflow-hidden rounded-full border-4 border-blue-500/20">
             <img
-              src="/lovable-uploads/e67bc9f5-6e61-44b8-8e91-9c99921f4fe3.png"
+              src="/lovable-uploads/e57d2964-37f6-4b00-b5e8-cb09b8c7438d.png"
               alt="Koli Akshay"
               className="w-full h-full object-cover"
             />
@@ -24,6 +24,7 @@ const Hero = () => {
             <p className="text-gray-600 mb-8 max-w-2xl">
               I am an enthusiastic IT learner with experience in UIWD, data analysis, and programming. 
               Looking for opportunities to use my skills in Python and TensorFlow to work on exciting projects.
+              I am eager to collaborate with others, solve real-world problems, and continue learning and growing in the field of IT.
             </p>
             <div className="flex flex-wrap justify-center md:justify-start gap-4">
               <Button asChild>
